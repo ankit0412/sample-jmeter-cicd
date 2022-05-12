@@ -22,13 +22,13 @@ mkdir -p $performanceReportFolder
 
 echo "++++++++++"
 echo " "
-echo " DASHBOARD LINK: http://rakuten-oasis-loadtest.s3-website-us-east-1.amazonaws.com/$folderName"
+echo " DASHBOARD LINK: http://your-project-url.s3-website-us-east-1.amazonaws.com/$folderName"
 echo " "
 echo "++++++++++"
 
 #Report Link
-reportLinkPlain=http://rakuten-oasis-loadtest.s3-website-us-east-1.amazonaws.com
-reportLink=http://rakuten-oasis-loadtest.s3-website-us-east-1.amazonaws.com/$folderName
+reportLinkPlain=http://your-project-url.s3-website-us-east-1.amazonaws.com
+reportLink=http://your-project-url.s3-website-us-east-1.amazonaws.com/$folderName
 
 # To generate env vars in email
 if [ -f env_vars.txt ]; then
